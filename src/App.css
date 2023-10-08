@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.background {
+  height: 100vh;
+  background-color: #ffffff;
+}
+.search-history {
+  height: 10%;
+  background-color: #3367d6;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.app-logo {
+  width: 100px;
+  height: 60px;
+}
+img {
+  width: 20px;
+  height: 20px;
+}
+.searchInput {
+  background-color: #64748b;
+  border: 2px solid #ececec;
+  border-radius: 5px;
+  min-width: 80px;
+}
+.card {
+  background-color: #ffffff;
+  box-shadow: 5px 4px 16px 5px #475569;
+  padding: 40px;
+  margin: 5%;
+}
+.SearchHistory {
+  cursor: pointer;
+  outline: none;
+}
